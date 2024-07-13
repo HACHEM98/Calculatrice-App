@@ -8,6 +8,10 @@ This is a basic calculator application for Android built using Java. The app sup
 - Clear Function: Clear the input fields to start a new calculation.
 - Decimal Support: Allows for calculations with decimal numbers.
    ## Screenshots
+  <div>
+     <img src="app/src/main/res/drawable/img.png" width="250" height="350">
+  </div>
+  
    ## Getting Started
   These instructions will help you set up and run the project on your local machine for development and testing purposes.
     ### Prerequisites
