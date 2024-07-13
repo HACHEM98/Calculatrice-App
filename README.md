@@ -26,7 +26,7 @@ This is a basic calculator application for Android built using Java. The app sup
      - Connect your Android device via USB or start an emulator.
      - Click on the 'Run' button in Android Studio.
   ## Project Structure
-    ~~~~
+    
 Calculatrice-App/
 ├── app/
 │   ├── src/
@@ -42,12 +42,12 @@ Calculatrice-App/
 │   │   │   │   └── values/
 │   │   │   │       └── strings.xml
 │   │   │   └── AndroidManifest.xml
-└── build.gradle ~~~
+└── build.gradle 
 
-  ###  MainActivity.java
-     This file contains the main logic for the calculator. It handles user input and performs the calculations.
-  ###  activity_main.xml
-     This file defines the layout of the calculator, including buttons for digits and operations, and the display area for results.
+###  MainActivity.java
+   This file contains the main logic for the calculator. It handles user input and performs the calculations.
+###  activity_main.xml
+    This file defines the layout of the calculator, including buttons for digits and operations, and the display area for results.
 ## Usage
   - Enter Numbers: Tap the buttons to enter numbers.
   - Select Operation: Tap the operation buttons (+, -, *, /) to perform the desired calculation.
