@@ -1,19 +1,19 @@
-## Calculatrice-App
+# Calculatrice-App
 This is a basic calculator application for Android built using Java. The app supports basic arithmetic operations such as addition, subtraction, multiplication, and division. It features a simple and user-friendly interface, making it easy to perform quick calculations.
-## Features
+   ## Features
 - Addition: Perform addition operations with two numbers.
 - Subtraction: Perform subtraction operations with two numbers.
 - Multiplication: Perform multiplication operations with two numbers.
 - Division: Perform division operations with two numbers.
 - Clear Function: Clear the input fields to start a new calculation.
 - Decimal Support: Allows for calculations with decimal numbers.
-  ## Screenshots
-  ## Getting Started
+   ## Screenshots
+   ## Getting Started
   These instructions will help you set up and run the project on your local machine for development and testing purposes.
     ### Prerequisites
      - Android Studio: Download and install Android Studio
      - Java Development Kit (JDK): Ensure you have the latest JDK installed. You can download it here.
-   ### Installation
+    ### Installation
      #### 1. Clone the repository:
      ~~~
      git clone https://github.com/HACHEM98/Calculatrice-App.git
@@ -25,7 +25,25 @@ This is a basic calculator application for Android built using Java. The app sup
    #### 3. Build and run the project:
      - Connect your Android device via USB or start an emulator.
      - Click on the 'Run' button in Android Studio.
-
+ ## Project Structure
+ ~~~
+ Calculatrice-App/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── calculator/
+│   │   │   │               └── MainActivity.java
+│   │   │   ├── res/
+│   │   │   │   ├── layout/
+│   │   │   │   │   └── activity_main.xml
+│   │   │   │   └── values/
+│   │   │   │       └── strings.xml
+│   │   │   └── AndroidManifest.xml
+└── build.gradle
+~~~
  ## Usage
   - Enter Numbers: Tap the buttons to enter numbers.
   - Select Operation: Tap the operation buttons (+, -, *, /) to perform the desired calculation.
